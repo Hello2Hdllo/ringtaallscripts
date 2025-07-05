@@ -1,0 +1,79 @@
+body{
+    background-color: lightblue;
+}
+#h1{
+    cursor: pointer;
+    text-align: center;
+    color: yellowgreen;
+    animation-name: anim1;
+    animation-duration: 5s;
+    transition: 0.85s;
+}
+#p1{
+    cursor: pointer;
+    text-align: center;
+    color: green;
+    animation-name: anim2;
+    animation-duration: 2.5s;
+    transition: 0.85s;
+}
+#span1{
+    cursor: pointer;
+    background-color: green;
+    transition: 0.75s;
+}
+#span2{
+    cursor: pointer;
+    background-color: mediumaquamarine;
+    transition: 0.85s;
+}
+@keyframes anim1{
+    from{transform: translateX(100px)}
+}
+@keyframes anim2{
+    from{transform: translateY(100px)}
+}
+#h1:hover{
+    font-size: 2.25em;
+    color: lime;
+}
+#span1:hover{
+    background-color: azure;
+}
+#p1:hover{
+    color: red;
+    font-size: 1.25em;
+}
+#span2:hover{
+    background-color: blue;
+}
+#h2{
+    cursor: pointer;
+    color: red;
+    transition: 0.85s;
+}
+#h2:hover{
+    color: green;
+    font-size: 2.5em;
+}
+.container{
+    text-align: center;
+}
+#pointsbutton{
+    font-size: 2.5em;
+    cursor: pointer;
+    color: red;
+    background-color: green;
+    transition: 0.5s;
+}
+#pointsbutton:active{
+    font-size: 2.75em;
+    color: green;
+    background-color: red;
+}
+#label1{
+    color: yellow;
+    display: block;
+    text-align: center;
+    font-size: 3em;
+}
